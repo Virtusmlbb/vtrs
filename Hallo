@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название вашего сайта</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Анимация */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .animated {
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            animation-name: fadeIn;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 class="animate__animated animate__fadeIn">Название вашего сайта</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#products">Продукты</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <h2 class="animate__animated animate__fadeIn">Добро пожаловать!</h2>
+        <p class="animate__animated animate__fadeIn">Добро пожаловать на наш сайт. Мы рады видеть вас здесь.</p>
+    </section>
+
+    <section id="about">
+        <h2 class="animate__animated animate__fadeIn">О нас</h2>
+        <p class="animate__animated animate__fadeIn">Несколько слов о вашей компании или о вас лично.</p>
+    </section>
+
+    <section id="products">
+        <h2 class="animate__animated animate__fadeIn">Продукты</h2>
+        <p class="animate__animated animate__fadeIn">Здесь вы можете представить информацию о ваших продуктах.</p>
+        <!-- Добавьте картинки и описание продуктов -->
+    </section>
+
+    <section id="contact">
+        <h2 class="animate__animated animate__fadeIn">Контакты</h2>
+        <p class="animate__animated animate__fadeIn">Свяжитесь с нами:</p>
+        <ul class="animate__animated animate__fadeIn">
+            <li>Email: example@example.com</li>
+            <li>Телефон: +1234567890</li>
+            <li>Адрес: улица, город, страна</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p class="animate__animated animate__fadeIn">&copy; 2024 Название вашей компании. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
