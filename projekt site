@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название вашего сайта</title>
+    <style>
+        /* Добавьте здесь стили CSS для вашего сайта */
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Название вашего сайта</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#products">Продукты</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <h2>Добро пожаловать!</h2>
+        <p>Добро пожаловать на наш сайт. Мы рады видеть вас здесь.</p>
+    </section>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Несколько слов о вашей компании или о вас лично.</p>
+    </section>
+
+    <section id="products">
+        <h2>Продукты</h2>
+        <p>Здесь вы можете представить информацию о ваших продуктах.</p>
+        <!-- Добавьте картинки и описание продуктов -->
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами:</p>
+        <ul>
+            <li>Email: example@example.com</li>
+            <li>Телефон: +1234567890</li>
+            <li>Адрес: улица, город, страна</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Название вашей компании. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
